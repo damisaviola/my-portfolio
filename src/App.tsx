@@ -14,7 +14,7 @@ import './index.css';
 
 function App() {
   return (
-    <ThemeProvider defaultTheme="light">
+    <ThemeProvider defaultTheme="light" storageKey="dami-theme">
       <div className="min-h-screen bg-background text-foreground pb-24 md:pb-0 selection:bg-blue-500/30">
         
         {/* Dekorasi Background Glow */}

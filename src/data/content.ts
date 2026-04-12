@@ -37,24 +37,31 @@ export const favoriteMovies = [
 export const favoriteManga = [
   {
     id: 1,
-    title: "One Piece",
-    author: "Eiichiro Oda",
-    cover: "https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg",
-    status: "Ongoing"
+    title: "Fullmetal Alchemist",
+    author: "Hiromu Arakawa",
+    cover: "https://upload.wikimedia.org/wikipedia/id/9/9d/Fullmetal123.jpg",
+    status: "Completed"
   },
   {
     id: 2,
     title: "Berserk",
     author: "Kentaro Miura",
-    cover: "https://upload.wikimedia.org/wikipedia/en/4/4c/Berserk_vol_1.jpg",
+    cover: "https://upload.wikimedia.org/wikipedia/en/4/4a/Berserk_vol01.png",
     status: "Ongoing"
   },
   {
     id: 3,
-    title: "Vagabond",
-    author: "Takehiko Inoue",
-    cover: "https://upload.wikimedia.org/wikipedia/en/d/dc/Vagabond21.jpg",
-    status: "Hiatus"
+    title: "Vinland Saga",
+    author: "Makoto Yukimura",
+    cover: "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Vinland_Saga_volume_01_cover.jpg/250px-Vinland_Saga_volume_01_cover.jpg",
+    status: "Ongoing"
+  },
+  {
+    id: 4,
+    title: "Monster",
+    author: "Naoki Urasawa",
+    cover: "https://upload.wikimedia.org/wikipedia/en/0/00/Monster_manga_volume_1_cover.jpg",
+    status: "Completed"
   }
 ];
 
@@ -68,16 +75,23 @@ export const favoriteComics = [
   },
   {
     id: 2,
-    title: "Batman: The Killing Joke",
-    author: "Alan Moore, Brian Bolland",
-    cover: "https://upload.wikimedia.org/wikipedia/en/2/29/Killing_joke_b.JPG",
+    title: "Batman: The Dark Knight Returns",
+    author: "Frank Miller",
+    cover: "https://upload.wikimedia.org/wikipedia/en/7/77/Dark_knight_returns.jpg",
     status: "Completed"
   },
   {
     id: 3,
-    title: "The Sandman",
-    author: "Neil Gaiman",
-    cover: "https://upload.wikimedia.org/wikipedia/en/9/92/Sandmanv1_1.jpg",
+    title: "Daredevil: Born Again",
+    author: "Frank Miller, David Mazzucchelli",
+    cover: "https://upload.wikimedia.org/wikipedia/en/a/a8/Daredevil_Born_Again.jpg",
+    status: "Completed"
+  },
+  {
+    id: 4,
+    title: "Kingdom Come",
+    author: "Mark Waid, Alex Ross",
+    cover: "https://upload.wikimedia.org/wikipedia/en/9/9f/Kingdom_Come_%28DC_Comics_1997_softcover_edition%29.jpg",
     status: "Completed"
   }
 ];
