@@ -1,8 +1,8 @@
 export const personalInfo = {
   name: "dami.",
   username: "@damisaviola",
-  title: "Frontend Developer & UI/UX Enthusiast",
-  bio: "Hi! Saya dami. Saya sangat tertarik dengan desain antarmuka modern yang estetik dan pengalaman pengguna yang seamless. Selalu belajar dan bereksperimen dengan teknologi web terbaru.",
+  title: "Software Engineer",
+  bio: "Hi, saya dami. Saya seorang software engineer yang sangat tertarik dengan teknologi web modern dan pengalaman pengguna yang seamless. Selalu belajar dan bereksperimen dengan teknologi web terbaru.",
   avatar: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
 };
 

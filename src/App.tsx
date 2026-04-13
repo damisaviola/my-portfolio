@@ -10,6 +10,7 @@ import { GameSection } from './components/GameSection';
 import { ComicSection } from './components/ComicSection';
 import { ContributorSection } from './components/ContributorSection';
 import { FooterSection } from './components/FooterSection';
+import { Analytics } from '@vercel/analytics/react';
 import './index.css';
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
 
         <FooterSection />
       </div>
+      <Analytics />
     </ThemeProvider>
   )
 }

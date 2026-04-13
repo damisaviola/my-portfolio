@@ -73,7 +73,7 @@ export function HeroSection() {
       {/* Konten Utama */}
       <div className="max-w-4xl mx-auto w-full flex flex-col items-center text-center z-10">
         <div className="inline-flex glass px-6 py-2 rounded-full mb-8 text-xs md:text-sm font-bold tracking-widest uppercase border border-white/20 shadow-md">
-          👋 Welcome to my universe
+          👋 Welcome to my website
         </div>
         
         <h1 className="text-5xl md:text-8xl lg:text-[7rem] font-black leading-[1.1] tracking-tighter mb-8 drop-shadow-sm">
