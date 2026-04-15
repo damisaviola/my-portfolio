@@ -21,7 +21,6 @@ export function ComicSection() {
         {/* Unified Single Glass Card */}
         <div className="glass-card p-6 md:p-10 rounded-[2.5rem] relative overflow-hidden min-h-[450px]">
           
-          {/* Native-like Segmented Pill Control */}
           <div className="flex bg-black/5 dark:bg-white/5 p-1.5 rounded-[1.25rem] mb-10 w-full relative z-20 border border-white/10 shadow-inner">
             <button 
               onClick={() => setActiveTab("manga")}
