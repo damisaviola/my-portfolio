@@ -39,29 +39,38 @@ export const favoriteManga = [
     id: 1,
     title: "Fullmetal Alchemist",
     author: "Hiromu Arakawa",
+    // Gunakan URL yang lebih stabil jika ada, atau pastikan loading="lazy"
     cover: "https://upload.wikimedia.org/wikipedia/id/9/9d/Fullmetal123.jpg",
-    status: "Completed"
+    status: "Completed",
+    width: 252, // Data asli dari wiki
+    height: 354
   },
   {
     id: 2,
     title: "Berserk",
     author: "Kentaro Miura",
     cover: "https://upload.wikimedia.org/wikipedia/en/4/4a/Berserk_vol01.png",
-    status: "Ongoing"
+    status: "Ongoing",
+    width: 262,
+    height: 369
   },
   {
     id: 3,
     title: "Vinland Saga",
     author: "Makoto Yukimura",
     cover: "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Vinland_Saga_volume_01_cover.jpg/250px-Vinland_Saga_volume_01_cover.jpg",
-    status: "Ongoing"
+    status: "Ongoing",
+    width: 250,
+    height: 353
   },
   {
     id: 4,
     title: "Monster",
     author: "Naoki Urasawa",
     cover: "https://upload.wikimedia.org/wikipedia/en/0/00/Monster_manga_volume_1_cover.jpg",
-    status: "Completed"
+    status: "Completed",
+    width: 261,
+    height: 372
   }
 ];
 
@@ -71,58 +80,36 @@ export const favoriteComics = [
     title: "Watchmen",
     author: "Alan Moore, Dave Gibbons",
     cover: "https://upload.wikimedia.org/wikipedia/en/a/a2/Watchmen%2C_issue_1.jpg",
-    status: "Completed"
+    status: "Completed",
+    width: 300,
+    height: 450
   },
   {
     id: 2,
     title: "Batman: The Dark Knight Returns",
     author: "Frank Miller",
     cover: "https://upload.wikimedia.org/wikipedia/en/7/77/Dark_knight_returns.jpg",
-    status: "Completed"
+    status: "Completed",
+    width: 300,
+    height: 450
   },
   {
     id: 3,
     title: "Daredevil: Born Again",
-    author: "Frank Miller, David Mazzucchelli",
+    author: "Frank Miller",
     cover: "https://upload.wikimedia.org/wikipedia/en/a/a8/Daredevil_Born_Again.jpg",
-    status: "Completed"
+    status: "Completed",
+    width: 300,
+    height: 450
   },
   {
     id: 4,
     title: "Kingdom Come",
-    author: "Mark Waid, Alex Ross",
+    author: "Mark Waid",
     cover: "https://upload.wikimedia.org/wikipedia/en/9/9f/Kingdom_Come_%28DC_Comics_1997_softcover_edition%29.jpg",
-    status: "Completed"
+    status: "Completed",
+    width: 300,
+    height: 450
   }
 ];
 
-export const favoriteGames = [
-  {
-    id: 1,
-    title: "The Legend of Zelda: Breath of the Wild",
-    platform: "Nintendo Switch",
-    cover: "https://images.unsplash.com/photo-1612404730960-5c71577fca11?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    genre: "Action-Adventure"
-  },
-  {
-    id: 2,
-    title: "Elden Ring",
-    platform: "PC / PS5 / Xbox",
-    cover: "https://images.unsplash.com/photo-1605901309584-818e25960b8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    genre: "Action RPG"
-  },
-  {
-    id: 3,
-    title: "Cyberpunk 2077",
-    platform: "PC / Console",
-    cover: "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    genre: "Cyberpunk RPG"
-  },
-  {
-    id: 4,
-    title: "Valorant",
-    platform: "PC",
-    cover: "https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-    genre: "Tactical Shooter"
-  }
-];

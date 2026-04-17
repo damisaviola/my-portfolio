@@ -48,11 +48,16 @@ export function ComicSection() {
             {currentData.map((item, index) => (
               <div 
                 key={`${activeTab}-${item.id}`} 
-                className="flex gap-5 group items-center animate-pulse" 
+                className="flex gap-5 group items-center" 
                 style={{ animation: `fade-in 0.4s ease-out forwards ${index * 0.1}s`, opacity: 0 }}
               >
                 <div className="w-[5rem] h-[7rem] rounded-xl overflow-hidden shrink-0 border border-white/10 relative shadow-sm">
-                  <img src={item.cover} alt={item.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                  <img 
+                    src={`https://wsrv.nl/?url=${encodeURIComponent(item.cover)}&w=200&output=webp`} 
+                    alt={item.title} 
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                    loading="lazy" // Tambahkan ini agar tidak render semua gambar sekaligus
+                  />
                   <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
                 </div>
                 <div className="flex flex-col py-1">
