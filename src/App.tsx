@@ -6,10 +6,10 @@ import { StackSection } from './components/StackSection';
 import { ProjectSection } from './components/ProjectSection';
 import { MovieSection } from './components/MovieSection';
 import { SongSection } from './components/SongSection';
-import { GameSection } from './components/GameSection';
 import { ComicSection } from './components/ComicSection';
 import { ContributorSection } from './components/ContributorSection';
 import { FooterSection } from './components/FooterSection';
+import { ChatBot } from './components/ChatBot';
 import { Analytics } from '@vercel/analytics/react';
 import './index.css';
 
@@ -35,11 +35,11 @@ function App() {
           <ProjectSection />
           <MovieSection />
           <SongSection />
-          <GameSection />
           <ComicSection />
         </main>
 
         <FooterSection />
+        <ChatBot />
       </div>
       <Analytics />
     </ThemeProvider>

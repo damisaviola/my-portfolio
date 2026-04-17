@@ -1,4 +1,4 @@
-import { Home, User, FolderGit2, Film, Music, Gamepad2 } from "lucide-react";
+import { Home, User, FolderGit2, Film, Music } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
 
 export function Navigation() {
@@ -8,7 +8,6 @@ export function Navigation() {
     { name: "Projects", href: "#projects", icon: <FolderGit2 className="w-5 h-5" /> },
     { name: "Movies", href: "#movies", icon: <Film className="w-5 h-5" /> },
     { name: "Songs", href: "#songs", icon: <Music className="w-5 h-5" /> },
-    { name: "Games", href: "#games", icon: <Gamepad2 className="w-5 h-5" /> },
   ];
 
   return (
