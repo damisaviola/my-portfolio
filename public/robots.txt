@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://damisaviola.vercel.app/sitemap.xml
