@@ -23,7 +23,11 @@ export function ProjectSection() {
   useEffect(() => {
     const fetchRepos = async () => {
       try {
-        const res = await fetch("https://api.github.com/users/damisaviola/repos?sort=updated&per_page=12");
+        const token = import.meta.env.VITE_GITHUB_TOKEN;
+        const headers: Record<string, string> = {};
+        if (token) headers["Authorization"] = `token ${token}`;
+        
+        const res = await fetch("https://api.github.com/users/damisaviola/repos?sort=updated&per_page=12", { headers });
         if (!res.ok) throw new Error("Gagal mengambil data project");
         const data = await res.json();
         // Filter out forks, and limit to 4 or 6 items

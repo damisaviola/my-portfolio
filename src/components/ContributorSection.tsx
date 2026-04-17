@@ -28,6 +28,7 @@ export function ContributorSection() {
         <div className="glass-card p-6 md:p-10 rounded-3xl md:rounded-[2.5rem] flex justify-start md:justify-center overflow-x-auto md:overflow-hidden hide-scrollbar w-full border border-white/10 shadow-lg relative cursor-default">
           <div className="min-w-[800px] md:min-w-0 md:w-full pr-6 md:pr-0 pointer-events-auto [&_svg]:md:!w-full [&_svg]:md:!h-auto relative">
             <GitHubCalendar 
+              key={theme}
               username={GITHUB_USERNAME} 
               colorScheme={theme === "light" ? "light" : "dark"}
               blockSize={13}

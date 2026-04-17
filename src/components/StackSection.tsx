@@ -15,7 +15,11 @@ export function StackSection() {
   useEffect(() => {
     const fetchLanguages = async () => {
       try {
-        const response = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos?per_page=100&type=owner`);
+        const token = import.meta.env.VITE_GITHUB_TOKEN;
+        const headers: Record<string, string> = {};
+        if (token) headers["Authorization"] = `token ${token}`;
+        
+        const response = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos?per_page=100&type=owner`, { headers });
         if (!response.ok) throw new Error("API Limit atau Network Error");
         
         const repos = await response.json();
