@@ -13,7 +13,7 @@ export function AboutSection() {
         </h2>
         
         <div className="glass-card p-8 md:p-12 rounded-[2.5rem]">
-          <p className="text-lg md:text-xl leading-relaxed text-foreground md:leading-loose text-center md:text-left">
+          <p className="text-lg md:text-xl leading-relaxed text-foreground md:leading-loose text-left">
             {personalInfo.bio}
           </p>
         </div>
