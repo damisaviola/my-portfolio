@@ -38,6 +38,15 @@ export function ThemeProvider({
 
     root.classList.remove("light", "dark");
     root.classList.add(theme);
+
+    // Update meta theme-color for mobile browser status bar
+    const metaThemeColor = document.querySelector('meta[name="theme-color"]');
+    if (metaThemeColor) {
+      metaThemeColor.setAttribute(
+        "content",
+        theme === "dark" ? "#09090b" : "#ffffff"
+      );
+    }
   }, [theme]);
 
   const value = {
